@@ -1,0 +1,346 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #fff;
+width: 100%;
+}
+
+.container {
+max-width: 1217px;
+margin: 0 auto;
+}
+
+
+.header__menu {
+min-height: 50px;
+display: flex;
+}
+
+.header__nav {
+display: flex;
+text-align: center;
+}
+
+.header__logo {
+margin-right: 30px;
+margin-top: 29px;
+}
+
+.header__menu-item {
+font-size: 14px;
+font-weight: 500;
+color: #1A1A1A;
+margin-top: 51px;
+}
+
+.header__menu-item:not(:last-child) {
+margin-right: 30px;
+}
+
+.header__menu-item:last-child {
+margin-right: 550px;
+}
+
+.header__interface {
+display: flex;
+float: right;
+}
+
+.header__interface-item {
+height: 14.83px;
+margin-top: 48.56px;
+margin-left: 15px;
+}
+
+.block__1-container {
+height: 100%;
+}
+
+.block__1-title {
+font-size: 60px;
+font-weight: 500;
+color: #1A1A1A;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 159px;
+}
+
+.catalog {
+font-size: 14px;
+color: #1A1A1A;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+}
+
+.bloc__1 {
+margin-top: 30px;
+}
+
+.block__2-products {
+padding-top: 179px;
+}
+
+.product__header {
+display: flex;
+}
+
+.product__catalog {
+	margin-left: auto;
+}
+
+.product__title {
+color: #1A1A1A;
+font-weight: 600;
+font-size: 23px;
+margin-bottom: 71px;
+}
+
+.scrolling-wrapper {
+display: flex;
+justify-content: space-between;
+}
+
+.card {
+box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.img__card {
+text-align: center;
+padding: 25px;
+}
+
+.title__card {
+font-weight: 400;
+font-size: 14px;
+color: #1A1A1A;
+text-align: left;
+padding-top: 45px;
+}
+
+.img__3 {
+padding-top: 50px;
+}
+
+.subtitle__card {
+font-weight: 400;
+font-size: 14px;
+color: #1A1A1A;
+text-align: left;
+padding-top: 10px;
+}
+
+
+
+.action__header {
+display: flex;
+padding-top: 200px;
+}
+
+.action__title {
+color: #1A1A1A;
+font-weight: 600;
+font-size: 23px;
+}
+
+.action__catalog {
+margin-left: auto;
+}
+
+.action__image {
+margin-top: 71px;
+}
+
+.action__text-block {
+float: right;
+padding-top: 200px;
+padding-right: 485px;
+}
+
+.action__text {
+color: #1A1A1A;
+font-weight: 600;
+font-size: 16px;
+}
+
+.action__info {
+color: #5A5A5A;
+font-weight: 400;
+font-size: 14px;
+padding-bottom: 200px;
+}
+
+
+
+.product__best img {
+padding: 15px;
+}
+
+.title__card-1 {
+padding-top: 75px;
+}
+
+
+
+.vizit {
+background-color: #1A1A1A;
+}
+
+.vizit__title {
+font-weight: 500;
+font-size: 23px;
+color: #fff;
+margin-top: 274px;
+padding-top: 128px;
+}
+
+.vizit__image {
+display: flex;
+justify-content: space-between;
+padding-top: 70px;
+}
+
+.vizit__link {
+padding-top: 80px;
+}
+
+
+
+.link__item {
+padding-bottom: 30px;
+}
+
+.link__item img {
+padding-right: 10px;
+}
+
+
+.link__item-text {
+color: #fff;
+font-size: 16px;
+margin-bottom: 114px;
+}
+
+
+
+.brend__header {
+display: flex;
+padding-top: 200px;
+padding-bottom: 70px;
+}
+
+.brend__title {
+color: #1A1A1A;
+font-weight: 600;
+font-size: 23px;
+}
+
+.brend__image {
+margin-left: auto;
+}
+
+.brend__scroll {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.scroll__image {
+border: 1px solid #A9A9A9;
+width: 245.19px;
+height: 250px;
+padding: 103px 90px;
+margin-bottom: 150px;
+}
+
+
+
+
+.footer__container {
+padding-bottom: 100px;
+}
+
+
+.footer__card {
+display: flex;
+justify-content: space-between;
+}
+
+.footer__card a {
+color: #1A1A1A;
+}
+
+.footer__card-title {
+font-size: 14px;
+font-weight: 600;
+color: #1A1A1A;
+padding-bottom: 25px;
+}
+
+.text__one {
+padding-bottom: 25px;
+line-height: 28px;
+}
+
+.text__two {
+line-height: 28px;
+}
+
+.contact {
+display: block;
+line-height: 28px;
+}
+
+.payment {
+display: block;
+line-height: 28px;
+}
+
+.delivery {
+line-height: 28px;
+}
+
+
+
+
+.forma__text {
+margin-top: 15px;
+}
+
+.text__text {
+display: inline;
+text-align: center;
+font-size: 12px;
+}
+
+.text__text span {
+margin-left: 10px;
+}
+
+
+
+footer {
+background-color: #1A1A1A;
+padding-top: 48px;
+padding-bottom: 38px ;
+}
+
+.footer__container-footer {
+display: flex;
+text-align: center;
+justify-content: space-between;
+}
+
+
+.footer__text {
+color: #D6D6D6;
+}
+
+.footer__link img {
+margin-left: 28px;
+}
+
+.footer__info {
+color: #D6D6D6;
+}
